@@ -2,9 +2,10 @@
 <html>
    <head>
       <title>LakeLAN 5 - April 2025</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
    </head>
    <body>
-      <header>
+      <header id="mainHeading">
          <h1>LakeLAN 6 - April 2025</h1>
          <h2>Exact Dates Coming Soon!</h2>
          <h2>Lake of The Ozarks, MO</h2>
@@ -12,8 +13,14 @@
             <ul>
                <li>
                   <a href="#Event Details">Event Details</a>
-                  <a href="#RSVP List">RSVP List</a>
+               </li>
+               <li>   
+                  <a href="#Attendee List">Attendee List</a>
+               </li>
+               <li>
                   <a href="#Tournament Details">Tournament Details</a>
+               </li>
+               <li>
                   <a href="#Learn To Play">Learn To Play</a>
                </li>
             </ul>
@@ -24,21 +31,23 @@
             <section>
                <a name="Event Details"></a>
                <h2>Event Details</h2>
-               <img src="./images/h1_lanroom.jpg" alt="LAN Room">
-               <img src="./images/h1_equipment.jpeg" alt="OG Equipment">
-               <img src="./images/h1_lakehouse.jpg" alt="Lake House">
+               <div class="event-images-container">
+                  <img src="./images/h1_lanroom.jpg" class="event-images" alt="LAN Room">
+                  <img src="./images/h1_equipment.jpeg" class="event-images" alt="OG Equipment">
+                  <img src="./images/h1_lakehouse.jpg" class="event-images" alt="Lake House">
+               </div>
                <p>
                   LakeLAN is a annual 4-5 day event taking place in Lake of the Ozarks, Missouri. 
                   This is a regional level LAN event housing some of the most skilled Halo CE players in the country. 
                   Our goal is to keep this wonderful and unique game alive at a competitve level and bring in as many new players as possible. 
                   All skill levels are welcome. 
-                  <br><br><br>
+                  <br><br>
                   Contact for more info - nickcerame@gmail.com
                </p>
             </section>
             <section>
-               <a name="RSVP List"></a>
-               <h2>RSVP List</h2>
+               <a name="Attendee List"></a>
+               <h2>Attendee List</h2>
                <ol>
                   <li>Hobbes</li>
                   <li>Gammage</li>
@@ -123,7 +132,7 @@
 
       </main>
       <footer>
-         <p>Copyright &copy 2024 LakeLAN.com</p>
+         <p id="testP" class="funParagraph">Copyright &copy 2024 LakeLAN.com</p>
       </footer>
    </body>
 </html>
